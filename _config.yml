@@ -8,8 +8,8 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : PACT Kit
+tagline: Panic Button Workshop material from Amnesty International and The Engine Room
 author :
   name : Name Lastname
   email : blah@email.test
