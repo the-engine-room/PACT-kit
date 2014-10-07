@@ -64,28 +64,25 @@ h1 {
 .page-header {
   border: none;
 }
-/* BORDER CONTROL */
-.cc-full {
-  border-top: 1px solid #fff300;
-}
-.cc-half {
-  border-left: 1px solid #fff300;
-  margin-right: -1px;
-}
 h3 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
 }
-p {
+p,
+li {
   font-weight: 300;
   font-size: 20px;
+}
+img {
+  max-width: 100%;
 }
 /* CHEAT SHEET*/
 .cheatsheet .col-xs-12,
 .cheatsheet .col-xs-6 {
   border-top: 1px solid #fff300;
-  padding: 1em auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 .cheatsheet .col-xs-12:nth-child(1) {
   border: none;
