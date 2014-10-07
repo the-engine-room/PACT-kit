@@ -1,0 +1,177 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/RobotoCondensed-LightItalic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Italic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Italic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Italic-webfont.svg#roboto_condenseditalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-BoldItalic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.svg#roboto_condensedbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* PACTKIT Colors */
+
+@y:   #FFF300;
+@txt: #222;
+
+body,h1,h2,h3,h4,h5{
+  font-family: 'roboto_condensed', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: @txt;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.page-header{
+  border: none;
+}
+
+/* BORDER CONTROL */
+
+.cc-full {
+  border-top: 1px solid @y;
+}
+
+.cc-half {
+  border-left: 1px solid @y;
+  margin-right: -1px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* CHEAT SHEET*/
+
+.cheatsheet {
+  .col-xs-12,
+  .col-xs-6 {
+    border-top: 1px solid @y;
+    padding: 1em auto;
+  }
+  .col-xs-12:nth-child(1){border: none;}
+
+  .col-xs-6:nth-child(even){
+    border-right: 1px solid @y;
+  }
+}
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
