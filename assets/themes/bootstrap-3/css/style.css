@@ -87,8 +87,11 @@ img {
 .cheatsheet .col-xs-12:nth-child(1) {
   border: none;
 }
-.cheatsheet .col-xs-6:nth-child(even) {
+.cheatsheet .col-xs-6:nth-child(odd) {
   border-right: 1px solid #fff300;
+}
+.cheatsheet .row {
+  margin: 0;
 }
 /* posts index */
 .post > h3.title {

@@ -17,33 +17,37 @@
       </div>
       {% endif %}
 
-      {% if page.methodology %}
-      <div class="cs-methodology col-xs-6">
-        <h3>Methodology</h3>
-        <p>{{page.methodology}}</p>
-      </div>
-      {% endif %}
+      <div class="row">
+        {% if page.methodology %}
+        <div class="cs-methodology col-xs-6">
+          <h3>Methodology</h3>
+          <p>{{page.methodology}}</p>
+        </div>
+        {% endif %}
 
-      {% if page.timeSpan %}
-      <div class="cs-timespan col-xs-6">
-        <h3>Timespan</h3>
-        <p>{{page.timeSpan}}</p>
+        {% if page.timeSpan %}
+        <div class="cs-timespan col-xs-6">
+          <h3>Timespan</h3>
+          <p>{{page.timeSpan}}</p>
+        </div>
+        {% endif %}
       </div>
-      {% endif %}
 
-      {% if page.materials %}
-      <div class="cs-materials col-xs-6">
-        <h3>Materials</h3>
-        <p>{{page.materials}}</p>
-      </div>
-      {% endif %}
+      <div class="row">
+        {% if page.materials %}
+        <div class="cs-materials col-xs-6">
+          <h3>Materials</h3>
+          <p>{{page.materials}}</p>
+        </div>
+        {% endif %}
 
-      {% if page.downloadLink %}
-      <div class="cs-materials col-xs-6">
-        <h3>Printable Materials</h3>
-        <a class="btn btn-default" href="{{page.downloadLink}}">Download PDF</a>
+        {% if page.downloadLink %}
+        <div class="cs-materials col-xs-6">
+          <h3>Printable Materials</h3>
+          <a class="btn btn-default" href="{{page.downloadLink}}">Download PDF</a>
+        </div>
+        {% endif %}
       </div>
-      {% endif %}
 
       {% if page.extra %}
       <div class="cs-extra col-xs-12">
