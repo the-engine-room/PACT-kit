@@ -63,6 +63,11 @@ h1 {
 }
 .page-header {
   border: none;
+  text-align: center;
+}
+.page-header img {
+  width: 100%;
+  max-width: 375px;
 }
 h3 {
   font-weight: 700;

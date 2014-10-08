@@ -203,6 +203,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/PACT-activities\/2014-09-23-Risk-Mapping.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/PACT-activities\/2014-09-23-Risk-Mapping.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/PACT-activities\/2014-09-23-Risk-Mapping.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -212,6 +221,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/PACT-activities\/2014-09-23-Risk-Mapping.md",
 		"outputAbbreviatedPath": "\/_posts\/PACT-activities\/2014-09-23-Risk-Mapping.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2014\/09\/23\/Risk-Mapping\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/09\/23\/Risk-Mapping\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -268,6 +286,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/img\/1.2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64644,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/1.2.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/1.2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap-theme.min.css": {
 		"fileType": 16,
@@ -485,6 +514,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/img\/1.2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64644,
+		"inputAbbreviatedPath": "\/assets\/img\/1.2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/1.2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/themes\/bootstrap-3\/bootstrap\/css\/bootstrap-theme.min.css": {
 		"fileType": 16,
