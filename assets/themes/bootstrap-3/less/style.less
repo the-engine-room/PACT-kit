@@ -108,6 +108,34 @@ img{
   max-width: 800px;
 }
 
+.btn-default{
+  background-image: none;
+  background: @y;
+  border: 1.5px solid @txt;
+  border-radius: 3em;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-shadow: 0 0 0;
+  box-shadow: 0 2px 0.5px #ddd;
+  margin-top: 15px;
+
+  &:hover{
+    font-weight: 700;
+    background: @y;
+    border: 2.5px solid @txt;
+    padding: 5px 12px;
+  }
+}
+
+.bottom-nav{
+  text-align: center;
+  margin: 20px auto;
+
+  .btn {
+    min-width: 200px;
+  }
+}
+
 /* CHEAT SHEET*/
 
 .cheatsheet {
