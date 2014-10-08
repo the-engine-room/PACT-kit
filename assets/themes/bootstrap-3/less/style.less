@@ -117,7 +117,6 @@ img{
   font-size: 14px;
   text-shadow: 0 0 0;
   box-shadow: 0 2px 0.5px #ddd;
-  margin-top: 15px;
 
   &:hover{
     font-weight: 700;
@@ -147,13 +146,27 @@ img{
   }
   .col-xs-12:nth-child(1){border: none;}
 
+  .col-xs-6:nth-child(even){
+    border-left: 1px solid @y;
+  }
+
   .col-xs-6:nth-child(odd){
     border-right: 1px solid @y;
+    margin-right: -1px;
+  }
+
+  .col-xs-6:nth-child(even){
+    border-left: 1px solid @y;
+    //margin-left: -1px;
   }
 
   .row{
     margin: 0;
   }
+  .cs-materials h3 {
+    margin-bottom: 15px;
+  }
+
 }
 
 /* posts index */
