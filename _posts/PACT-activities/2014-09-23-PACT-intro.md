@@ -4,11 +4,13 @@ title: PACT intro
 cardOrder: 1.2
 categories:
 - PACT Activities
-goals: ""
+goals: "This is the introductory blablabla"
 methodology: ""
 timeSpan: ""
 remember: []
-materials: ""
+materials: "
+
+"
 downloadLink:
 shortLink:
 ---
