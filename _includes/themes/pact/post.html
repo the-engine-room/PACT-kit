@@ -44,9 +44,9 @@
         {% endif %}
 
         {% if page.downloadLink %}
-        <div class="cs-materials col-xs-6">
+        <div class="cs-materials col-xs-6" id="downloadButton">
           <h3>Printable Materials</h3>
-          <a class="btn btn-default" href="{{page.downloadLink}}">Download PDF</a>
+          <button class="btn btn-default" onclick="javascript:FromHTMLTOPDF()">Download PDF</button>
         </div>
         {% endif %}
       </div>
@@ -74,7 +74,7 @@
     </div>
 
     {% if page.online_only %}
-    <div class="cs-online col-xs-12">
+    <div class="cs-online col-xs-12" id="onlineContent">
       <h3>Online Extras</h3>
 
       {{page.online_only | markdownify }}
