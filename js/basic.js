@@ -29,10 +29,6 @@ function FromHTMLTOPDF() {
       left: 40,
       width: 450
     };
-
-    pdf.setFont("roboto_condensed", "normal");
-
-	console.log(pdf.getFontList());
     // all coords and widths are in jsPDF instance's declared units
     // 'inches' in this case
     pdf.fromHTML(
@@ -46,7 +42,7 @@ function FromHTMLTOPDF() {
     	function (dispose) {
     	  // dispose: object with X, Y of the last line add to the PDF 
     	  //          this allow the insertion of new lines after html
-          pdf.save('RiskMapping.pdf');
+          pdf.save('PACT-Kit.pdf');
         },
     	margins
     )
