@@ -223,3 +223,121 @@ img{
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+/***************************************************
+  PRINT LAYOUT
+***************************************************/
+
+.page-a4{
+  width: 100%; //297px;
+  height: 213.75mm;//210mm;
+  overflow: hidden;
+  outline: 1px solid #eee;
+}
+
+.page-a5{
+  width: 50%;//148.5mm;
+  height: 213.75mm;//210mm
+  overflow: hidden;
+  //outline: 1px solid #eee;
+  float: left;
+  &:first-child {margin-right: -1px}
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg); /* Safari */
+  -moz-transform:    rotate(-90deg); /* Firefox */
+  -ms-transform:     rotate(-90deg); /* IE */
+  -o-transform:      rotate(-90deg); /* Opera */
+  transform:         rotate(-90deg); /* Standard */
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+// @media print {
+//   html, body {
+//     width: 297mm;
+//     height: 210mm;
+//   }
+//   /* ... the rest of the rules ... */
+// }
+
+//.print {
+@media print {
+  .container {
+    max-width: none;
+    width: auto;
+    padding: 0;
+
+    .post-full>div {
+      width: 100%;
+      height: 210mm;
+      float: none;
+    }
+  }
+
+  .page-header,
+  .cheatsheet {
+    margin: 0;
+    .page-a5;
+    //background: red;
+  }
+
+  nav.navbar,
+  #onlineContent,
+  .bottom-nav,
+  .cs-materials{
+    display: none;
+  }
+
+  .page-header{
+    border-left: 30px solid @y;
+    border-right: 30px solid black;
+
+    img {
+      width: 300px;
+      margin-top: 60px;
+    }
+  }
+
+  .cheatsheet {
+    border-right: 30px solid @y;
+    border-left: 30px solid black;
+    padding: 30px 10px;
+  }
+
+
+
+  #inlet {
+    border-left: 30px solid @y;
+    border-right: 30px solid @y;
+    page-break-before: always;
+    .page-a4;
+    position: relative;
+
+    .content,
+    aside {
+      width: 100mm;
+      height: 300mm;
+      //padding: 60px;
+      position: absolute;
+      left: 26.75%;
+      top: 0;
+      .rotate;
+      background: red;
+
+      p, li { font-size: 14px;}
+
+      h3    { font-size: 25px;}
+    }
+
+    aside {
+      background: green;
+      top: -100mm;
+      left: 100mm;
+    }
+  }
+} // .print

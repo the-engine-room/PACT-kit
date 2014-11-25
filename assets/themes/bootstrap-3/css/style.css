@@ -190,3 +190,124 @@ img {
   border: 1px solid #4c964d;
   color: #FFF;
 }
+/***************************************************
+  PRINT LAYOUT
+***************************************************/
+.page-a4 {
+  width: 100%;
+  height: 213.75mm;
+  overflow: hidden;
+  outline: 1px solid #eee;
+}
+.page-a5 {
+  width: 50%;
+  height: 213.75mm;
+  overflow: hidden;
+  float: left;
+}
+.page-a5:first-child {
+  margin-right: -1px;
+}
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  /* Safari */
+  -moz-transform: rotate(-90deg);
+  /* Firefox */
+  -ms-transform: rotate(-90deg);
+  /* IE */
+  -o-transform: rotate(-90deg);
+  /* Opera */
+  transform: rotate(-90deg);
+  /* Standard */
+}
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .container {
+    max-width: none;
+    width: auto;
+    padding: 0;
+  }
+  .container .post-full > div {
+    width: 100%;
+    height: 210mm;
+    float: none;
+  }
+  .page-header,
+  .cheatsheet {
+    margin: 0;
+    width: 50%;
+    height: 213.75mm;
+    overflow: hidden;
+    float: left;
+  }
+  .page-header:first-child,
+  .cheatsheet:first-child {
+    margin-right: -1px;
+  }
+  nav.navbar,
+  #onlineContent,
+  .bottom-nav,
+  .cs-materials {
+    display: none;
+  }
+  .page-header {
+    border-left: 30px solid #fff300;
+    border-right: 30px solid black;
+  }
+  .page-header img {
+    width: 300px;
+    margin-top: 60px;
+  }
+  .cheatsheet {
+    border-right: 30px solid #fff300;
+    border-left: 30px solid black;
+    padding: 30px 10px;
+  }
+  #inlet {
+    border-left: 30px solid #fff300;
+    border-right: 30px solid #fff300;
+    page-break-before: always;
+    width: 100%;
+    height: 213.75mm;
+    overflow: hidden;
+    outline: 1px solid #eee;
+    position: relative;
+  }
+  #inlet .content,
+  #inlet aside {
+    width: 100mm;
+    height: 300mm;
+    position: absolute;
+    left: 26.75%;
+    top: 0;
+    -webkit-transform: rotate(-90deg);
+    /* Safari */
+    -moz-transform: rotate(-90deg);
+    /* Firefox */
+    -ms-transform: rotate(-90deg);
+    /* IE */
+    -o-transform: rotate(-90deg);
+    /* Opera */
+    transform: rotate(-90deg);
+    /* Standard */
+    background: red;
+  }
+  #inlet .content p,
+  #inlet aside p,
+  #inlet .content li,
+  #inlet aside li {
+    font-size: 14px;
+  }
+  #inlet .content h3,
+  #inlet aside h3 {
+    font-size: 25px;
+  }
+  #inlet aside {
+    background: green;
+    top: -100mm;
+    left: 100mm;
+  }
+}

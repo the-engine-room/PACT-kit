@@ -1,14 +1,14 @@
-<div class="page-header">
-
-  <img src="https://raw.githubusercontent.com/the-engine-room/PACT-kit/gh-pages/assets/img/1.2.png" alt="{{ page.title }}">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-</div>
-
 <div class="row post-full">
-  <div class="col-xs-12">
+  <div id="cover" class="col-xs-12">
     <!-- <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div> -->
+
+    <div class="page-header">
+
+      <img src="https://raw.githubusercontent.com/the-engine-room/PACT-kit/gh-pages/assets/img/1.2.png" alt="{{ page.title }}">
+      <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+    </div>
 
     <div class="cheatsheet">
 
@@ -68,59 +68,44 @@
 
     </div> <!-- end cheatsheet -->
 
+  </div> <!-- .col-xs-12 -->
+
+  <div id="inlet" class="col-xs-12">
+
     <div class="content col-xs-12">
       <h3>Full Description</h3>
       {{ content }}
     </div>
 
-    {% if page.online_only %}
-    <div class="cs-online col-xs-12" id="onlineContent">
-      <h3>Online Extras</h3>
+    <aside>
 
-      {{page.online_only | markdownify }}
+      {% if page.materials %}
+      <div class="cs-materials col-xs-6">
+        <h3>Materials</h3>
+        <p>{{page.materials}}</p>
+      </div>
+      {% endif %}
 
-    </div>
-    {% endif %}
+      {% if page.timeSpan %}
+      <div class="cs-timespan col-xs-6">
+        <h3>Timespan</h3>
+        <p>{{page.timeSpan}}</p>
+      </div>
+      {% endif %}
+
+      {% if page.online_only %}
+      <div class="cs-online col-xs-12" id="onlineContent">
+          <h3>Online Extras</h3>
+
+          {{page.online_only | markdownify }}
+      </div>
+      {% endif %}
+    </aside>
 
     {% if page.next %}
     <div class="bottom-nav col-xs-12">
       <a class="btn btn-default" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a>
     </div>
     {% endif %}
-
-<!--
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
-  {% endunless %}
-
-  {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}
-
-  <hr>
-  <ul class="pagination">
-  {% if page.previous %}
-    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
-  {% else %}
-    <li class="prev disabled"><a>&larr; Previous</a></li>
-  {% endif %}
-    <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-  {% if page.next %}
-    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
-  {% else %}
-    <li class="next disabled"><a>Next &rarr;</a>
-  {% endif %}
-  </ul>
-  <hr>
-  -->
-
   </div>
 </div>
