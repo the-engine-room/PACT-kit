@@ -7,7 +7,7 @@ categories:
 goals: ""
 methodology: ""
 timeSpan: ""
-remember: []
+remember: ""
 materials: ""
 downloadLink:
 shortLink:
