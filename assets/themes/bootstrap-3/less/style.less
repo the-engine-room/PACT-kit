@@ -229,6 +229,11 @@ img{
   PRINT LAYOUT
 ***************************************************/
 
+// hide print only by default
+#inlet aside{
+  display: none;
+}
+
 .page-a4{
   width: 100%; //297px;
   height: 213.75mm;//210mm;
@@ -320,6 +325,7 @@ img{
 
     .content,
     aside {
+      display: block;
       width: 100mm;
       height: 300mm;
       //padding: 60px;

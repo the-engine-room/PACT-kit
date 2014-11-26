@@ -193,6 +193,9 @@ img {
 /***************************************************
   PRINT LAYOUT
 ***************************************************/
+#inlet aside {
+  display: none;
+}
 .page-a4 {
   width: 100%;
   height: 213.75mm;
@@ -278,6 +281,7 @@ img {
   }
   #inlet .content,
   #inlet aside {
+    display: block;
     width: 100mm;
     height: 300mm;
     position: absolute;

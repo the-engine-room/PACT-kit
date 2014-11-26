@@ -77,6 +77,14 @@
       {{ content }}
     </div>
 
+    {% if page.online_only %}
+    <div class="cs-online col-xs-12" id="onlineContent">
+        <h3>Online Extras</h3>
+
+        {{page.online_only | markdownify }}
+    </div>
+    {% endif %}
+
     <aside>
 
       {% if page.materials %}
@@ -90,14 +98,6 @@
       <div class="cs-timespan col-xs-6">
         <h3>Timespan</h3>
         <p>{{page.timeSpan}}</p>
-      </div>
-      {% endif %}
-
-      {% if page.online_only %}
-      <div class="cs-online col-xs-12" id="onlineContent">
-          <h3>Online Extras</h3>
-
-          {{page.online_only | markdownify }}
       </div>
       {% endif %}
     </aside>
