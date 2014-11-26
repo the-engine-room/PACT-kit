@@ -6,7 +6,7 @@ categories:
 - PACT Activities
 goals: "identify vulnerable situations"
 methodology: "Each drafts their own free-style risk map"
-timeSpan: "45m individually + 15m discussion"
+timeSpan: "45m individually <br/>+ <br/>15m discussion"
 remember: "There is no recommended format for the map"
 materials: "flip chart paper, lots of coloured markers"
 downloadLink: http://bit.ly/panic1.2

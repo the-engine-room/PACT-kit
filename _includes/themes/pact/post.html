@@ -71,36 +71,46 @@
   </div> <!-- .col-xs-12 -->
 
   <div id="inlet" class="col-xs-12">
+    <div>
+      <div class="content col-xs-6">
+        <h3>Full Description</h3>
+        {{ content | markdownify }}
+      </div>
 
-    <div class="content col-xs-12">
-      <h3>Full Description</h3>
-      {{ content | markdownify }}
-    </div>
+      {% if page.online_only %}
+      <div class="cs-online col-xs-12" id="onlineContent">
+          <h3>Online Extras</h3>
 
-    {% if page.online_only %}
-    <div class="cs-online col-xs-12" id="onlineContent">
-        <h3>Online Extras</h3>
-
-        {{page.online_only | markdownify }}
-    </div>
-    {% endif %}
-
-    <aside>
-
-      {% if page.materials %}
-      <div class="cs-materials col-xs-6">
-        <h3>Materials</h3>
-        <p>{{page.materials | markdownify }}</p>
+          {{page.online_only | markdownify }}
       </div>
       {% endif %}
 
-      {% if page.timeSpan %}
-      <div class="cs-timespan col-xs-6">
-        <h3>Timespan</h3>
-        <p>{{page.timeSpan | markdownify }}</p>
-      </div>
-      {% endif %}
-    </aside>
+      <aside class="content col-xs-6">
+
+        {% if page.materials %}
+        <div class="aside-materials">
+          <h3>Materials</h3>
+          {{page.materials | markdownify }}
+        </div>
+        {% endif %}
+
+        {% if page.timeSpan %}
+        <div class="aside-timespan">
+          <h3>Timespan</h3>
+          {{page.timeSpan | markdownify }}
+        </div>
+        {% endif %}
+
+        {% if page.shortLink %}
+        <div class="aside-link">
+          <h3>More Online</h3>
+          {{page.shortLink | markdownify }}
+        </div>
+        {% endif %}
+      </aside>
+
+    </div>
+
 
     {% if page.next %}
     <div class="bottom-nav col-xs-12">
