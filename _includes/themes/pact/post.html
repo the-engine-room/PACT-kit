@@ -23,14 +23,14 @@
         {% if page.methodology %}
         <div class="cs-methodology col-xs-6">
           <h3>Methodology</h3>
-          <p>{{page.methodology}}</p>
+          <p>{{page.methodology | markdownify }}</p>
         </div>
         {% endif %}
 
         {% if page.timeSpan %}
         <div class="cs-timespan col-xs-6">
           <h3>Timespan</h3>
-          <p>{{page.timeSpan}}</p>
+          <p>{{page.timeSpan | markdownify }}</p>
         </div>
         {% endif %}
       </div>
@@ -39,7 +39,7 @@
         {% if page.materials %}
         <div class="cs-materials col-xs-6">
           <h3>Materials</h3>
-          <p>{{page.materials}}</p>
+          <p>{{page.materials | markdownify }}</p>
         </div>
         {% endif %}
 
@@ -54,14 +54,14 @@
       {% if page.extra %}
       <div class="cs-extra col-xs-12">
         <h3>Extra Details</h3>
-        <p>{{page.extra}}</p>
+        <p>{{page.extra | markdownify }}</p>
       </div>
       {% endif %}
 
       {% if page.remember %}
       <div class="cs-remember col-xs-12">
         <h3>Remember</h3>
-        <p>{{page.remember}}</p>
+        <p>{{page.remember | markdownify }}</p>
       </div>
       {% endif %}
 
@@ -74,7 +74,7 @@
 
     <div class="content col-xs-12">
       <h3>Full Description</h3>
-      {{ content }}
+      {{ content | markdownify }}
     </div>
 
     {% if page.online_only %}
@@ -90,14 +90,14 @@
       {% if page.materials %}
       <div class="cs-materials col-xs-6">
         <h3>Materials</h3>
-        <p>{{page.materials}}</p>
+        <p>{{page.materials | markdownify }}</p>
       </div>
       {% endif %}
 
       {% if page.timeSpan %}
       <div class="cs-timespan col-xs-6">
         <h3>Timespan</h3>
-        <p>{{page.timeSpan}}</p>
+        <p>{{page.timeSpan | markdownify }}</p>
       </div>
       {% endif %}
     </aside>

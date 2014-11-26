@@ -224,6 +224,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/PACT-activities\/2014-11-26-Introduction.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/PACT-activities\/2014-11-26-Introduction.md",
+		"outputAbbreviatedPath": "\/_posts\/PACT-activities\/2014-11-26-Introduction.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/2014\/09\/23\/Risk-Mapping\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -336,6 +348,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/themes\/bootstrap-3\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/themes\/bootstrap-3\/fonts\/roboto_boldcondensed_macroman\/stylesheet.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -412,45 +433,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css": {
-		"fileType": 16,
+	"\/_site\/assets\/themes\/bootstrap-3\/less\/style.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/css\/bootstrap.2.2.2.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8777,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings-white.png",
+		"inputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/less\/style.less",
+		"outputAbbreviatedPath": "\/_site\/assets\/themes\/bootstrap-3\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12799,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/bootstrap\/img\/glyphicons-halflings.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/themes\/twitter\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/themes\/twitter\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
 		},
 	"\/_site\/categories.html": {
 		"fileType": 8192,
@@ -461,17 +462,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/dist\/jspdf.debug.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/dist\/jspdf.debug.js",
-		"outputAbbreviatedPath": "\/_site\/dist\/min\/jspdf.debug-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -480,105 +470,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/js\/basic.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/basic.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/basic-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/jquery\/jquery-1.7.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/jquery\/jquery-1.7.1.min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/jquery\/min\/jquery-1.7.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/jquery\/jquery-ui-1.8.17.custom.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/jquery\/jquery-ui-1.8.17.custom.min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/jquery\/min\/jquery-ui-1.8.17.custom.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/mockups\/pact_1.2_front-a.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35171,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-a.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-a.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/mockups\/pact_1.2_front-b.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45034,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-b.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-b.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/mockups\/pact_1.2_front-c.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59496,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-c.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_1.2_front-c.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/mockups\/pact_game_hrd.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39729,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_game_hrd.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_game_hrd.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/mockups\/pact_game_kf_pm_front.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44821,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_game_kf_pm_front.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_game_kf_pm_front.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/mockups\/pact_game_kf_pm_inlet.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32254,
-		"inputAbbreviatedPath": "\/_site\/mockups\/pact_game_kf_pm_inlet.png",
-		"outputAbbreviatedPath": "\/_site\/mockups\/pact_game_kf_pm_inlet.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/_site\/pact activities\/2014\/09\/23\/Make-my-PACT\/index.html": {
 		"fileType": 8192,
@@ -603,6 +494,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/pact activities\/2014\/09\/23\/Risk-Mapping\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/pact activities\/2014\/11\/26\/Introduction\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/pact activities\/2014\/11\/26\/Introduction\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
