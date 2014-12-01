@@ -338,6 +338,12 @@ img {
 .pm .container,
 .hrd .container {
   outline: 1px dashed #def;
+  padding: 0;
+}
+.kf .container .row,
+.pm .container .row,
+.hrd .container .row {
+  margin: 0;
 }
 .kf .gamecard,
 .pm .gamecard,
@@ -442,5 +448,5 @@ img {
 .kf .gamecard .gc-inlay .content,
 .pm .gamecard .gc-inlay .content,
 .hrd .gamecard .gc-inlay .content {
-  padding: 0 30px;
+  padding: 0 8%;
 }
