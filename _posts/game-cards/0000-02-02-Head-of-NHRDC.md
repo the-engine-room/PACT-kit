@@ -3,7 +3,7 @@ layout: kf
 title: Head of the National Human Rights Defenders Coalition
 cardNum: 2.2
 categories:
-- key figures
+- key-figures
 bio: "As the Head of the National Human rights Defenders Coalition you have the authority to ensure that the Coalition takes action on certain cases, as long as they are within organisational priorities and there is strategic relevance to working on the case."
 token: "Urgent Action"
 power: "You can issue Urgent Actions. The Coalition's Urgent Actions are often picked up and recirculated within the sub-region, as well as by INGOs and scoped by UN Special Procedures"

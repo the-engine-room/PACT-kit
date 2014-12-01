@@ -1,32 +1,30 @@
 <div class="row gamecard">
   <div class="gc-front">
-    <img src="{{ BASE_PATH }}/assets/img/gc-{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+    <img src="{{ BASE_PATH }}/assets/img/gc-{{ page.cardNum }}.png" alt="{{ page.title }}">
     <h1>{{ page.title }}</h1>
+    {% if page.bio %}
     <div class="bio">
       <p>{{page.bio | markdownify }}</p>
     </div>
+    {% endif %}
   </div>
 
   <div class="gc-back">
-    <img src="{{ BASE_PATH }}/assets/img/gc-t-{{ page.cardNum }}.png" alt="{{ gamecard.token }}">
-    <h2>{{ gamecard.token }}</h2>
+    <img src="{{ BASE_PATH }}/assets/img/gc-t-{{ page.cardNum }}.png" alt="{{ page.token }}">
+    <h2>{{ page.token }}</h2>
+
+    {% if page.description %}
     <div class="description">
       <p>{{page.description | markdownify }}</p>
     </div>
+    {% endif %}
   </div>
 
   <div class="gc-inlay">
     <div class="requisites">
-      <h3>Main Requisites</h3>
+      <h3>Pact Member Considerations</h3>
       <p>{{content | markdownify }}</p>
     </div>
-    <div class="asshole">
-      <h3>Optional Requisites</h3>
-      <p>{{page.asshole_mode | markdownify }}</p>
-    </div>
-    <div class="context">
-      <h3>Context</h3>
-      <p>{{page.context | markdownify }}</p>
-    </div>
   </div>
+  
 </div>
