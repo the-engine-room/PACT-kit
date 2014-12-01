@@ -1,20 +1,18 @@
 <div class="row gamecard">
   <div class="gc-front">
-    {% if page.img %}
     <img src="{{ BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
-    {% else %}
-    <img src="{{ BASE_PATH }}/assets/img/gc_.1.png" alt="{{ page.title }}">
-    {% endif %}
 
     <div class="talent">
       <h3>Special Talent:</h3>
       <p>{{page.talent | markdownify }}</p>
     </div>
 
+    {% if page.needs %}
     <div class="needs">
       <h3>Needs:</h3>
       <h2>{{ page.token }}</h2>
     </div>
+    {% endif %}
 
     <header>
       <h1>{{ page.title }}</h1>

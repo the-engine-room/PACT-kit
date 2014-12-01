@@ -2,7 +2,6 @@
 layout: pm
 title: NGO Security Focal Point
 cardNum: 2.1
-img: yes
 categories:
 - pact-members
 bio: "You are the Security Focal Point of the NGO your HRD works for. Your NGO is member of the National Human Rights Defenders Coalition. You are the main contact point when anyone in the organisation is facing a security situation, and you need to ensure a coordinated emergency response."

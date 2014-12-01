@@ -2,7 +2,6 @@
 layout: kf
 title: Head of the National Human Rights Defenders Coalition
 cardNum: 2.2
-img: yes
 categories:
 - key-figures
 bio: "As the Head of the National Human rights Defenders Coalition you have the authority to ensure that the Coalition takes action on certain cases, as long as they are within organisational priorities and there is strategic relevance to working on the case."

@@ -6,7 +6,7 @@ categories:
 - pact-members
 bio: "You are the Communications Officer at the human rights defenders NGO. Your job is to communicate effectively and engage the broad audience on problems and issues that your NGO is fighting for."
 talent: "Master Communicator"
-token: "Press release"
+#token: "Press release"
 ---
 
 As soon as you receive the alert, your task is to give an interview to the press. Record your brief statement on a mobile phone camera. You will need to ensure that you include all key information about the defender and the case so prepare first by asking the right questions when setting up your PACT.
