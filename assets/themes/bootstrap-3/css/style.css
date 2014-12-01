@@ -198,7 +198,7 @@ img {
   color: #FFF;
 }
 /***************************************************
-  PRINT LAYOUT
+  PRINT LAYOUTS
 ***************************************************/
 #inlet aside {
   display: none;
@@ -206,6 +206,11 @@ img {
 .page-a4 {
   width: 100%;
   height: 213.75mm;
+  overflow: hidden;
+}
+.page-a4p {
+  height: 297mm;
+  width: 210mm;
   overflow: hidden;
 }
 .page-a5 {
@@ -323,4 +328,119 @@ img {
     height: 3em;
     margin-bottom: 3em;
   }
+}
+.kf .navbar,
+.pm .navbar,
+.hrd .navbar {
+  display: none;
+}
+.kf .container,
+.pm .container,
+.hrd .container {
+  outline: 1px dashed #def;
+}
+.kf .gamecard,
+.pm .gamecard,
+.hrd .gamecard {
+  height: 297mm;
+  width: 210mm;
+  overflow: hidden;
+  position: relative;
+}
+.kf .gamecard h2,
+.pm .gamecard h2,
+.hrd .gamecard h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+}
+.kf .gamecard .gc-front,
+.pm .gamecard .gc-front,
+.hrd .gamecard .gc-front,
+.kf .gamecard .gc-inlay,
+.pm .gamecard .gc-inlay,
+.hrd .gamecard .gc-inlay {
+  width: 50%;
+  top: 0;
+}
+.kf .gamecard .gc-front,
+.pm .gamecard .gc-front,
+.hrd .gamecard .gc-front {
+  left: 0;
+  border-right: 1px dashed #def;
+}
+.kf .gamecard .gc-front img,
+.pm .gamecard .gc-front img,
+.hrd .gamecard .gc-front img {
+  width: 100%;
+}
+.kf .gamecard .gc-front .reversed,
+.pm .gamecard .gc-front .reversed,
+.hrd .gamecard .gc-front .reversed {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  transform: rotate(180deg);
+  padding: 0 30pt;
+  left: 0;
+}
+.kf .gamecard .gc-front .token,
+.pm .gamecard .gc-front .token,
+.hrd .gamecard .gc-front .token {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  transform: rotate(180deg);
+  padding: 0 30pt;
+  left: 0;
+  bottom: 177mm;
+}
+.kf .gamecard .gc-front .talent,
+.pm .gamecard .gc-front .talent,
+.hrd .gamecard .gc-front .talent {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  transform: rotate(180deg);
+  padding: 0 30pt;
+  left: 0;
+  bottom: 165mm;
+  font-size: 20pt;
+}
+.kf .gamecard .gc-front .needs,
+.pm .gamecard .gc-front .needs,
+.hrd .gamecard .gc-front .needs {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  transform: rotate(180deg);
+  padding: 0 30pt;
+  left: 0;
+  bottom: 250mm;
+}
+.kf .gamecard .gc-front header,
+.pm .gamecard .gc-front header,
+.hrd .gamecard .gc-front header {
+  padding: 0 20pt;
+}
+.kf .gamecard .gc-front header h1,
+.pm .gamecard .gc-front header h1,
+.hrd .gamecard .gc-front header h1 {
+  font-size: 25pt;
+}
+.kf .gamecard .gc-front header .bio,
+.pm .gamecard .gc-front header .bio,
+.hrd .gamecard .gc-front header .bio {
+  font-size: 15pt;
+}
+.kf .gamecard .gc-inlay,
+.pm .gamecard .gc-inlay,
+.hrd .gamecard .gc-inlay {
+  position: absolute;
+  right: 0;
+}
+.kf .gamecard .gc-inlay .content,
+.pm .gamecard .gc-inlay .content,
+.hrd .gamecard .gc-inlay .content {
+  padding: 0 30px;
 }
