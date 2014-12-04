@@ -80,13 +80,10 @@ h1 {
   font-weight: 700;
 }
 
-.page-header{
-  border: none;
-  text-align: center;
-  img {
-    width: 100%;
-    max-width: 375px;
-  }
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -94,6 +91,12 @@ h3 {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 3px;
+}
+h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333;
+  margin: 20px 0 3px;
 }
 p, li {
   font-weight: 300;
@@ -110,6 +113,15 @@ li {
 
 img{
   max-width: 100%;
+}
+
+.page-header{
+  border: none;
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 375px;
+  }
 }
 
 .container {
@@ -453,5 +465,14 @@ img{
         padding: 0 8%;
       }
     }
+  }
+}
+.rules .content {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+
+  @media print {
+    margin: 0 30pt;
   }
 }

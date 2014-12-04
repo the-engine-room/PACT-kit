@@ -1,0 +1,11 @@
+<div class="row gamecard">
+
+  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+
+  <div class="gc-inlay">
+    <div class="content">
+      <p>{{content | markdownify }}</p>
+    </div>
+  </div>
+
+</div>
