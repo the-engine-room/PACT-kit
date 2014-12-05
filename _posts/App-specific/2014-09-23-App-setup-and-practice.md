@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App setup and practice
-cardOrder: 2.3
+cardOrder: 2.1
 categories:
 - App-specific
 goals: ""
