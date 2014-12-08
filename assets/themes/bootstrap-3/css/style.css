@@ -127,6 +127,50 @@ img {
 .bottom-nav .btn {
   min-width: 200px;
 }
+/************************************************
+
+   home page
+
+************************************************/
+ul.cards {
+  padding: 0;
+  text-align: center;
+}
+ul.cards li {
+  list-style: none;
+  margin: 0 10px 10px 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  border: 1px solid #ddd;
+  padding: 0;
+}
+ul.cards li:hover {
+  border: 1px solid #222;
+}
+ul.cards li a {
+  display: inline-block;
+  padding: 4px;
+  border-right: 5px solid #fff300;
+  border-left: 5px solid #222;
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  height: 140px;
+}
+ul.cards li a img {
+  max-width: 80px;
+  margin-bottom: 5px;
+}
+ul.cards li a:hover {
+  text-decoration: none;
+}
+/************************************************
+
+   posts index
+
+************************************************/
 /* CHEAT SHEET*/
 .cheatsheet .col-xs-12,
 .cheatsheet .col-xs-6 {
@@ -153,7 +197,6 @@ img {
 .cheatsheet .cs-materials h3 {
   margin-bottom: 15px;
 }
-/* posts index */
 .post > h3.title {
   position: relative;
   padding-top: 10px;
