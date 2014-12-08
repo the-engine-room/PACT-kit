@@ -1,10 +1,12 @@
 ---
 layout: pm
-title: Security Focal Point For the National Human Rights Defenders Coalition
+title: Security Focal Point
 cardNum: 5.1
 categories:
 - pact-members
-bio: "Has privileged access to the Coalition's Communications Officer"
+bio: ""
+talent:"Has privileged access to the Coalition's Communications Officer"
+token:"Security Information Email"
 ---
 You are the security focal point of the National Human Rights Defenders Coalition. The Coalition is a strong national network of NGOs and civil society members, whose priority is to ensure early warnings to its members in relations to security threats to civil society.
 

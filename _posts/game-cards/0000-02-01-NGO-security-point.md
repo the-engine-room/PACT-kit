@@ -4,6 +4,7 @@ title: NGO Security Focal Point
 cardNum: 2.1
 categories:
 - pact-members
+bio:""
 talent: "Can request the release of an Urgent Action from the Head of the National Human Rights Defenders Coalition."
 token: "Urgent Action"
 ---
