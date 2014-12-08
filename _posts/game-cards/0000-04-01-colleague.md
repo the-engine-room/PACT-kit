@@ -4,7 +4,9 @@ title: Campaigning Colleague
 cardNum: 4.1
 categories:
 - pact-members
-bio: "Has connections with the EU mission delegation."
+bio: ""
+talent: "Has connections with the EU mission delegation."
+token: "Business Card"
 ---
 You are a colleague of the human rights defender. While you may not necessarily be a security expert, you understand campaigning and are able to mobilise your organisation. As soon as you receive the emergency alert your task is to lobby key influencers to help get the defender released.
 
