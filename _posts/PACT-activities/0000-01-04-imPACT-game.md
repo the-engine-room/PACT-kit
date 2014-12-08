@@ -1,7 +1,7 @@
 ---
 layout: post
 title: imPACT
-cardOrder: 1.4
+cardOrder: 1-4
 categories:
 - PACT Activities
 goals: "Simulate the use of the Panic Button and responses by PACT members."

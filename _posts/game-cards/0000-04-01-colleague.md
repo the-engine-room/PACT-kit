@@ -1,7 +1,7 @@
 ---
 layout: pm
 title: Campaigning Colleague
-cardNum: 4.1
+cardNum: 4-1
 categories:
 - pact-members
 bio: ""

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Risk Mapping
-cardOrder: 1.2
+cardOrder: 1-2
 categories:
 - PACT Activities
 goals: "identify vulnerable situations"

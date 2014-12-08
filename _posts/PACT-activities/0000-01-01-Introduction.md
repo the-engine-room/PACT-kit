@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction
-cardOrder: 1.1
+cardOrder: 1-1
 categories:
 - PACT Activities
 goals: "Participants get to know each other and learn the purpose of the training."

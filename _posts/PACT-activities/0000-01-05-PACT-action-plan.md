@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PACT action plan
-cardOrder: 1.5
+cardOrder: 1-5
 categories:
 - PACT Activities
 goals: "Making an action plan to prepare your PACT to do what you need them to do."

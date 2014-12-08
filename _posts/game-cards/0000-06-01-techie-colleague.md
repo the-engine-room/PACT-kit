@@ -1,12 +1,12 @@
 ---
 layout: pm
 title: Techie Colleague
-cardNum: 6.1
+cardNum: 6-1
 categories:
 - pact-members
 bio: ""
-talent:"Has digital security expertise"
-token:"Security Key"
+talent: "Has digital security expertise"
+token: "Security Key"
 ---
 You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters.
 

@@ -1,12 +1,12 @@
 ---
 layout: pm
 title: Partner NGO member
-cardNum: 9.1
+cardNum: 9-1
 categories:
 - pact-members
 bio: ""
-talent:"Specialised in mobilising activists and starting protests"
-token:""
+talent: "Specialised in mobilising activists and starting protests"
+token: ""
 ---
 You are a member of an NGO that often partners with the human rights defenders NGO. Your NGO is specialised in mobilising local and national activists to physical protests. You often work in solidarity with your partner NGOs.
 
