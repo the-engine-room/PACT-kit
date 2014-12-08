@@ -4,7 +4,8 @@ title: NGO Security Focal Point
 cardNum: 2.1
 categories:
 - pact-members
-bio: "Can request the release of an Urgent Action from the Head of the National Human Rights Defenders Coalition."
+talent: "Can request the release of an Urgent Action from the Head of the National Human Rights Defenders Coalition."
+token:"Urgent Action"
 ---
 You are the Security Focal Point of the NGO your HRD works for. Your NGO is member of the National Human Rights Defenders Coalition. You are the main contact point when anyone in the organisation is facing a security situation, and you need to ensure a coordinated emergency response.
 
