@@ -46,7 +46,9 @@
   <script type="text/javascript" src="{{ BASE_PATH }}/js/basic.js"></script>
   </head>
 
-  {% capture body_class %}{% if page.body_class %}{{ page.body_class }}{% endif %}{% endcapture %}
+  {% capture body_class %}
+    {% if page.body_class %}{{ page.body_class }}{% endif %} {% if page.cardOrder %}card-{{ page.cardOrder }}{% endif %}
+  {% endcapture %}
   <body class="{{ body_class }}">
     <div id="wrap">
       <nav class="navbar navbar-default" role="navigation">
@@ -63,17 +65,17 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-          <ul class="nav navbar-nav">
+          <!-- <ul class="nav navbar-nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
-          </ul>
-          <form class="navbar-form navbar-right" role="search">
+          </ul> -->
+          <!-- <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+          </form> -->
         </div><!-- /.navbar-collapse -->
       </nav>
 
