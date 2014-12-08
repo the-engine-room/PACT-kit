@@ -4,13 +4,17 @@
 
     <div class="talent">
       <h3>Special Talent:</h3>
-      <p>{{page.talent | markdownify }}</p>
+      {% if page.talent %}
+        <p>{{page.talent | markdownify }}</p>
+      {% endif %}
     </div>
 
     {% if page.token %}
     <div class="needs">
       <h3>Needs:</h3>
-      <h2>{{ page.token }}</h2>
+      {% if page.token %}
+        <h2>{{ page.token }}</h2>
+      {% endif %}
     </div>
     {% endif %}
 

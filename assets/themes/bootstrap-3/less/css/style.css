@@ -189,18 +189,8 @@ ul.cards li a:hover {
 h1 small {
   display: block;
 }
-.card-0 .page-header {
-  position: relative;
-  padding-top: 300px;
-}
-.card-0 .page-header h1 {
-  bottom: 0;
-}
 .card-0 #hp {
   text-align: center;
-}
-.card-0 #hp .btn {
-  margin: 50px 0;
 }
 /************************************************
 
