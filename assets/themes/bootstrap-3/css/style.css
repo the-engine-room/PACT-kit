@@ -86,10 +86,10 @@ li {
 }
 ul,
 ol {
-  padding-left: 1em;
+  padding-left: 1.4em;
 }
 li {
-  padding-left: 2pt;
+  padding-left: 0;
 }
 img {
   max-width: 100%;
