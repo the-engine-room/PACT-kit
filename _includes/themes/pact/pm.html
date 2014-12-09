@@ -2,13 +2,6 @@
   <div class="gc-front">
     <img src="{{ BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
 
-    <div class="talent">
-      <h3>Special Talent:</h3>
-      {% if page.talent %}
-        <p>{{page.talent | markdownify }}</p>
-      {% endif %}
-    </div>
-
     {% if page.token %}
     <div class="needs">
       <h3>Needs:</h3>
@@ -20,9 +13,9 @@
 
     <header>
       <h1>{{ page.title }}</h1>
-      {% if page.bio %}
-      <div class="bio">
-        <p>{{page.bio | markdownify }}</p>
+      {% if page.talent %}
+      <div class="talent">
+        {{page.talent | markdownify }}
       </div>
       {% endif %}
     </header>
