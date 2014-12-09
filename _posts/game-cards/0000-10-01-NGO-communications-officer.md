@@ -6,7 +6,6 @@ categories:
 - pact-members
 bio: ""
 talent: "Can speak effectively to the press"
-token: ""
 ---
 You are the Communications Officer at the human rights defenders NGO. Your job is to communicate effectively and engage the broad audience on problems and issues that your NGO is fighting for.
 
