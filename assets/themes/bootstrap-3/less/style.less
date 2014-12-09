@@ -394,6 +394,7 @@ h1 small {
 // }
 
 // .print {
+// body {
 @media print {
   .container {
     max-width: none;
@@ -432,7 +433,11 @@ h1 small {
     border-right: 30px solid black;
     padding: 30px 10px;
   }
+  #cover {
+    // transform: rotate(90deg) translate(10%, 0mm);
+  }
   #inlet {
+    // transform: rotate(90deg) translate(10%, 0mm);
     border-left: 45px solid @y;
     border-right: 45px solid @y;
     page-break-before: always;
