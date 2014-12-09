@@ -12,7 +12,18 @@ materials: "flipcharts, markers, reflection petals"
 downloadLink:
 shortLink:
 extra:
-online_only: "
+---
+
+**Reflection on imPACT game:** You can present a slideshow of pictures from the game, if there are any. Facilitate a discussion about the main learning points from the game; ask driving questions if they don’t come out naturally (where did the preparation fail, was there anything else you could have done better?).
+
+**Action plans:** Encourage small groups based on similar risk/threat scenarios so they can learn from each other. Groups should think about what their PACT contacts need to know/have to be able to act timely and effectively: what types of information, and how to make sure they have it before something goes wrong, so they are ready to act. Participants should put themselves in the PACT contacts' shoes, and examine the situation from that perspective.
+
+**Report back:** if there’s time, you can choose between 2-4 people to report back on their plans. Allow time and space for questions, debate and discussion as report backs are made, and try  to highlight learnings for each report back person about how they could change/improve their PACT.
+
+<div class="cs-online" id="onlineContent" markdown="1">
+
+### Online Extras
+
 Important things the teams will hopefully learn/internalise:
 - Personal security is the responsibility of the HRD, and it is important that they learn to take actions and change their behaviours to reflect this fact. The Panic Button is not a magic bullet, no one will swoop in and save them when they activate it - they have the sole responsibility of making it work for them.
 
@@ -27,11 +38,5 @@ Important things the teams will hopefully learn/internalise:
 - Part of figuring out the PACT is to understand there should be one lead contact that is meant to coordinate the actions amongst all of the contacts.
 
 - HRDs can think through what their strategy might be upon arrest/detention.  While the Panic Button is disguised on the phone, it is not encrypted - it is only really meant to get past frontline police. Authorities or other aggressors can expose the Panic Button, given expertise and enough time withe the phone.  Therefore, HRDs need to think about (i.e. assess the risk/threat situation) whether they want to tell their captors that they have been able to send a message out as to their circumstance and whereabouts. Releasing this information to captors can be a security tactic but it can also backfire.
-"
----
 
-**Reflection on imPACT game:** You can present a slideshow of pictures from the game, if there are any. Facilitate a discussion about the main learning points from the game; ask driving questions if they don’t come out naturally (where did the preparation fail, was there anything else you could have done better?).
-
-**Action plans:** Encourage small groups based on similar risk/threat scenarios so they can learn from each other. Groups should think about what their PACT contacts need to know/have to be able to act timely and effectively: what types of information, and how to make sure they have it before something goes wrong, so they are ready to act. Participants should put themselves in the PACT contacts' shoes, and examine the situation from that perspective.
-
-**Report back:** if there’s time, you can choose between 2-4 people to report back on their plans. Allow time and space for questions, debate and discussion as report backs are made, and try  to highlight learnings for each report back person about how they could change/improve their PACT.
+</div>
