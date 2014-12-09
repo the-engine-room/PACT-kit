@@ -94,6 +94,10 @@ li {
 img {
   max-width: 100%;
 }
+#onlineContent {
+  padding: 10px;
+  border: 4px dashed #fff300;
+}
 .page-header {
   border: none;
   text-align: center;
@@ -351,11 +355,12 @@ h1 small {
   .cheatsheet:first-child {
     margin-right: -1px;
   }
-  nav.navbar,
+  .navbar,
   #onlineContent,
   .bottom-nav,
   #downloadButton,
-  .cheetsheet .cs-materials {
+  .cheetsheet .cs-materials,
+  #footer {
     display: none;
   }
   .page-header {
