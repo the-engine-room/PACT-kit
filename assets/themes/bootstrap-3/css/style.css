@@ -164,17 +164,23 @@ ul.cards {
 }
 ul.cards li {
   list-style: none;
-  margin: 0 10px 10px 0;
   display: inline-block;
   vertical-align: top;
+  width: 100%;
+  margin-bottom: 50px;
+}
+ul.cards li > .cover {
+  margin: 0 10px 10px 0;
   width: 100px;
   border: 1px solid #ddd;
   padding: 0;
+  background: #fff;
+  float: left;
 }
-ul.cards li:hover {
+ul.cards li > .cover:hover {
   border: 1px solid #222;
 }
-ul.cards li a {
+ul.cards li > .cover a {
   display: inline-block;
   padding: 4px;
   border-right: 5px solid #fff300;
@@ -185,12 +191,45 @@ ul.cards li a {
   text-align: center;
   height: 140px;
 }
-ul.cards li a img {
+ul.cards li > .cover a img {
   max-width: 80px;
   margin-bottom: 5px;
 }
-ul.cards li a:hover {
+ul.cards li > .cover a:hover {
   text-decoration: none;
+}
+ul.cards li h3 {
+  margin-top: 5px;
+}
+ul.cards li > .card-meta {
+  text-align: left;
+  float: left;
+  font-size: 16px;
+}
+ul.cards li > .card-meta > div {
+  padding: 5px 0;
+}
+ul.cards li > .card-meta .goals {
+  border-bottom: 1px solid #fff300;
+  margin-bottom: -1px;
+}
+ul.cards li > .timespan {
+  text-align: left;
+  font-size: 16px;
+  float: left;
+  width: 200px;
+  border-left: 1px solid #fff300;
+  min-height: 140px;
+}
+@media only screen and (max-width: 767px) {
+  ul.cards li {
+    margin-right: 20px;
+    width: auto;
+  }
+  .card-meta,
+  .timespan {
+    display: none;
+  }
 }
 h1 small {
   display: block;
@@ -207,6 +246,7 @@ h1 small {
 }
 .card-0 #hp .btn {
   margin: 50px 0;
+  width: 160px;
 }
 /************************************************
 
