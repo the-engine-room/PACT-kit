@@ -12,7 +12,7 @@ You are employed by the National Human Rights Defenders Coalition and your job a
 
 ###Main requisites
 - A good explanation of what happened, the circumstances of the disappearance/detention, etc. (including about how they found out about it, i.e. the Panic Button)
-- Why do they think that the disappearance/detention was connected to the fact that the person is actually a HRD?
+- Why do they think that the disappearance or detention was connected to the fact that the person is actually a HRD?
 - Has the HRD given consent for the information about the incident to be communicated so widely?
 - Is there any risk in naming the HRD in the communication?
 
