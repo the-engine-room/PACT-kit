@@ -12,7 +12,6 @@ materials: "Game cards, props if needed for trigger actions and Key Figures"
 downloadLink:
 shortLink:
 extra:
-online_only: ""
 ---
 **The imPACT game** puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado: the participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and key figures get involved in order to liberate the HRD.
 

@@ -12,7 +12,6 @@ materials: "Color paper, scissors, color markers, flip charts, sticky notes"
 downloadLink: http://tiny.cc/PACT1.1
 shortLink:
 extra:
-online_only: "If there is time, do an objectives exercise in order to determine if there are any objectives that will not be addressed in the training and deal with those expectations ASAP. You can do this through a bike rack or a sticky note card sorting exercise. "
 ---
 **Welcome and introduction:** use this time to set rules (like hand signals, use of jargon etc). Ask participants who wish to remain anonymous come to you at first break: make sure no public sharing happens until then. Mention safe interaction: respect, self-care, etc. Clearly state your role as facilitator: they are the experts, they know their situation best, your role is to help guide them through the process.
 
@@ -21,3 +20,7 @@ online_only: "If there is time, do an objectives exercise in order to determine 
 **Flower exercise:** Prepare paper flower centers (big circles) and petals (any shape) beforehand, in many colors. Hand out the centers to each participant, ask them to write or draw anything that represents them and stick centers on walls. During the training, facilitate reflection times (3 or more) where participants write important experiences on petals (learnings, insights, eureka moments) and attach them to their center.
 
 **Roadmap agenda:** Before training begins, start drawing a roadmap on a big paper. Represent agenda items through visuals. As participants arrive, ask for their help in drawing the visuals — start introducing key phrases, like PACT. Draw a car on a sticky note: during the training, track progress by moving the car between activities.
+
+<div class="cs-online" id="onlineContent" markdown="1">
+If there is time, do an objectives exercise in order to determine if there are any objectives that will not be addressed in the training and deal with those expectations ASAP. You can do this through a bike rack or a sticky note card sorting exercise.
+</div>
