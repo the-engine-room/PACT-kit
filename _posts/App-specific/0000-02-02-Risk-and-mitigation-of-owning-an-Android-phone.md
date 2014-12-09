@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Risk and mitigation of owning an Android phone
+title: Digital mobile security
 cardOrder: 2-2
 categories:
 - App-specific
