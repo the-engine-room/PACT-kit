@@ -49,6 +49,7 @@ h3,
 h4,
 h5 {
   font-family: 'roboto_condensed', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 h1,
 h2,
