@@ -4,8 +4,7 @@ title: Coalition’s Communications Officer
 cardNum: 5-2
 categories:
 - key-figures
-bio: ""
-power: "Can quickly communicate with the majority of civil society actors in the country"
+power: "Can communicate with civil society actors in the country."
 token: "Security Information Email"
 ---
 You are employed by the National Human Rights Defenders Coalition and your job as the Communications Officer is to ensure that all members (NGO and independents) receive timely and accurate information that can help them in their work - including information about security incidents with other members, trends in threats and attacks, etc. Obviously, sharing information about security incidents can have serious impacts, so all information must be well verified.
