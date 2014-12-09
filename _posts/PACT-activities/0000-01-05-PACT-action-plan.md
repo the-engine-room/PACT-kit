@@ -25,7 +25,8 @@ extra:
 ### Online Extras
 
 Important things the teams will hopefully learn/internalise:
-- Personal security is the responsibility of the HRD, and it is important that they learn to take actions and change their behaviours to reflect this fact. The Panic Button is not a magic bullet, no one will swoop in and save them when they activate it - they have the sole responsibility of making it work for them.
+
+- Personal security is the responsibility of the HRD, and it is important that they learn to take actions and change their behaviors to reflect this fact. The Panic Button is not a magic bullet, no one will swoop in and save them when they activate it - they have the sole responsibility of making it work for them.
 - Always have the Panic Button set up appropriately and make sure PACT contacts are prepared
 - It is never ok to just set up the Panic Button once and leave it - always update!
 - Always have phone credit so the messages send
