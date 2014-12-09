@@ -1,17 +1,18 @@
 ---
 layout: post
 title: PACT action plan
-cardOrder: 1-5
-categories:
-- PACT Activities
-goals: "Making an action plan to prepare your PACT to do what you need them to do."
+cardOrder: "1-5"
+categories: 
+  - PACT Activities
+goals: Making an action plan to prepare your PACT to do what you need them to do.
 methodology: "Reflection on game, individual action planning"
-timeSpan: "90 minutes"
-remember: "This exercise takes place after the imPACT game"
+timeSpan: 90 minutes
+remember: This exercise takes place after the imPACT game
 materials: "flipcharts, markers, reflection petals"
-downloadLink:
-shortLink:
-extra:
+downloadLink: null
+shortLink: null
+extra: null
+published: true
 ---
 
 **Reflection on imPACT game:** You can present a slideshow of pictures from the game, if there are any. Facilitate a discussion about the main learning points from the game; ask driving questions if they don’t come out naturally (where did the preparation fail, was there anything else you could have done better?).
@@ -25,6 +26,9 @@ extra:
 ### Online Extras
 
 Important things the teams will hopefully learn/internalise:
+
+![](/https://raw.githubusercontent.com/the-engine-room/PACT-kit/gh-pages/mockups/pact_1.2_front-a.png)
+
 
 - Personal security is the responsibility of the HRD, and it is important that they learn to take actions and change their behaviors to reflect this fact. The Panic Button is not a magic bullet, no one will swoop in and save them when they activate it - they have the sole responsibility of making it work for them.
 - Always have the Panic Button set up appropriately and make sure PACT contacts are prepared
