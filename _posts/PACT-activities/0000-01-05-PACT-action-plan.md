@@ -26,17 +26,11 @@ extra:
 
 Important things the teams will hopefully learn/internalise:
 - Personal security is the responsibility of the HRD, and it is important that they learn to take actions and change their behaviours to reflect this fact. The Panic Button is not a magic bullet, no one will swoop in and save them when they activate it - they have the sole responsibility of making it work for them.
-
 - Always have the Panic Button set up appropriately and make sure PACT contacts are prepared
-
 - It is never ok to just set up the Panic Button once and leave it - always update!
-
 - Always have phone credit so the messages send
-
 - It can be very daunting, or even traumatising, for PACT members to not be adequately prepared or with enough information about the Human Rights Defender (HRD). Encourage HRDs to think about what it would be like to receive an alert - you would instantly be worried, you would automatically go into panic or flight mode and the adrenaline would likely not subside until either the HRD was located, safe or released. Being put in a position where you have information about a security situation but not having the tools to handle it is a very emotionally dangerous position to put someone in. Therefore, it is the HRDs responsibility to ensure the PACT contacts know what to do when they receive the alert and they are empowered to actually carry out those actions.
-
 - Part of figuring out the PACT is to understand there should be one lead contact that is meant to coordinate the actions amongst all of the contacts.
-
 - HRDs can think through what their strategy might be upon arrest/detention.  While the Panic Button is disguised on the phone, it is not encrypted - it is only really meant to get past frontline police. Authorities or other aggressors can expose the Panic Button, given expertise and enough time withe the phone.  Therefore, HRDs need to think about (i.e. assess the risk/threat situation) whether they want to tell their captors that they have been able to send a message out as to their circumstance and whereabouts. Releasing this information to captors can be a security tactic but it can also backfire.
 
 </div>

@@ -8,7 +8,7 @@ bio: ""
 power: "Can issue Urgent Actions that are picked up and recirculated within the sub-region and INGOs."
 token: "Urgent Action"
 ---
-As the Head of the National Human rights Defenders Coalition you have the authority to ensure that the Coalition takes action on certain cases, as long as they are within organisational priorities and there is strategic relevance to working on the case."
+As the Head of the National Human rights Defenders Coalition you have the authority to ensure that the Coalition takes action on certain cases, as long as they are within organisational priorities and there is strategic relevance to working on the case.
 
 ###Main Requisites
 - Accurate biographical data about the HRD
