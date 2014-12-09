@@ -95,6 +95,7 @@ img {
   max-width: 100%;
 }
 #onlineContent {
+  margin-top: 40px;
   padding: 10px;
   border: 4px dashed #fff300;
 }
