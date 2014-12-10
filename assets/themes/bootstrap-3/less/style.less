@@ -169,26 +169,30 @@ img{
   }
 }
 
-.navbar-default{
-  border: 0;
-  border-radius: 0;
-  background: @y;
-
-  .navbar-brand {
-    color: #222;
-  }
-
-  .navbar-toggle {
-    border-color: darken(@y, 15%);
-
-    .icon-bar {background-color: darken(@y, 15%)}
-
-    &:hover {
-      background-color: darken(@y, 15%);
-      .icon-bar {background-color: @y}
-    }
-  }
+.navbar {
+  display: none;
 }
+
+// .navbar-default{
+//   border: 0;
+//   border-radius: 0;
+//   background: @y;
+//
+//   .navbar-brand {
+//     color: #222;
+//   }
+//
+//   .navbar-toggle {
+//     border-color: darken(@y, 15%);
+//
+//     .icon-bar {background-color: darken(@y, 15%)}
+//
+//     &:hover {
+//       background-color: darken(@y, 15%);
+//       .icon-bar {background-color: @y}
+//     }
+//   }
+// }
 
 /************************************************
 
@@ -232,6 +236,7 @@ ul.cards {
 
         img {
           max-width: 80px;
+          margin-top: 10px;
           margin-bottom: 5px;
         }
 

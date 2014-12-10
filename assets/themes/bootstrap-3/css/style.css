@@ -137,25 +137,8 @@ img {
 .bottom-nav .btn {
   min-width: 200px;
 }
-.navbar-default {
-  border: 0;
-  border-radius: 0;
-  background: #fff300;
-}
-.navbar-default .navbar-brand {
-  color: #222;
-}
-.navbar-default .navbar-toggle {
-  border-color: #b3aa00;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #b3aa00;
-}
-.navbar-default .navbar-toggle:hover {
-  background-color: #b3aa00;
-}
-.navbar-default .navbar-toggle:hover .icon-bar {
-  background-color: #fff300;
+.navbar {
+  display: none;
 }
 /************************************************
 
@@ -197,6 +180,7 @@ ul.cards li > .cover a {
 }
 ul.cards li > .cover a img {
   max-width: 80px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 ul.cards li > .cover a:hover {
