@@ -2,7 +2,9 @@
 layout: page
 cardOrder: 0
 title: Panic Button Training Kit
+published: true
 ---
+
 <div id="hp" markdown="1">
 {% include JB/setup %}
 
@@ -37,8 +39,4 @@ title: Panic Button Training Kit
     {% endif %}
   {% endfor %}
 </ul>
-
-## Credits
-
-This is where you should put some credit logos
 </div>
