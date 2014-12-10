@@ -145,12 +145,13 @@ Nav
   position: fixed;
   display: block;
   border-radius: 25px;
-  border: 1px solid #fff300;
+  border: 2px solid #fff300;
   width: 50px;
   height: 50px;
   text-indent: -9999px;
   overflow: hidden;
   color: transparent;
+  font-size: 20px;
 }
 .bottom-nav a:before {
   content: "";
@@ -169,8 +170,17 @@ Nav
 .bottom-nav a.btn_prev:hover:before {
   border-right-color: #222;
 }
+@media only screen and (max-width: 767px) {
+  .bottom-nav a .bottom-nav a.btn_prev,
+  .bottom-nav a .bottom-nav a.btn_next {
+    bottom: 5px;
+    top: auto;
+    margin-top: 0;
+  }
+}
 .bottom-nav a:hover {
   background-color: #fff300;
+  color: #fff300;
 }
 .bottom-nav a.btn_next {
   right: 5px;
