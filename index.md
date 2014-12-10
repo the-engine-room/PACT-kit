@@ -2,7 +2,9 @@
 layout: page
 cardNum: 0
 title: Panic Button Training Kit
+published: true
 ---
+
 <div id="hp" markdown="1">
 {% include JB/setup %}
 
@@ -44,7 +46,4 @@ You can browse the cards online, or print them for use in workshops. **We apprec
   {% endfor %}
 </ul>
 
-## Credits
-
-This is where you should put some credit logos
 </div>
