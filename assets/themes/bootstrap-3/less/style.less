@@ -161,15 +161,6 @@ img{
   }
 }
 
-.bottom-nav{
-  text-align: center;
-  margin: 20px auto;
-
-  .btn {
-    min-width: 200px;
-  }
-}
-
 .navbar {
   display: none;
 }
@@ -225,9 +216,8 @@ Nav
     }
 
     &.btn_prev{
-      top:50%;
       left:5px;
-      margin-top: -25px;
+      bottom:5px;
       &:hover:before{
         border-right-color: #222;
       }
@@ -238,9 +228,8 @@ Nav
     }
 
     &.btn_next{
-      top:50%;
-      margin-top: -25px;
       right: 5px;
+      bottom:5px;
       &:before{
         border-right: none;
         border-left: 15px solid @y;
@@ -251,19 +240,9 @@ Nav
       }
     }
 
-    &.btn_prev,
-    &.btn_next {
-      @media only screen and (max-width: 767px) {
-        bottom: 5px;
-        top: auto;
-        margin-top: 0;
-      }
-    }
-
     &.btn_home{
-      left: 50%;
+      left: 5px;
       top: 5px;
-      margin-left: -25px;
       &:before{
         border-top: 0;
         border-left: 10px solid transparent;
