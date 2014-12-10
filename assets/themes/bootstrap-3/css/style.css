@@ -211,10 +211,9 @@ ul.cards li {
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  margin-bottom: 50px;
+  margin: 0 10px 50px;
 }
 ul.cards li > .cover {
-  margin: 0 10px 10px 0;
   width: 100px;
   border: 1px solid #ddd;
   padding: 0;
