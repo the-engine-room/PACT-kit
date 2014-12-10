@@ -193,6 +193,14 @@ Nav
 .bottom-nav a.btn_next:hover:before {
   border-left-color: #222;
 }
+@media only screen and (max-width: 767px) {
+  .bottom-nav a.btn_prev,
+  .bottom-nav a.btn_next {
+    bottom: 5px;
+    top: auto;
+    margin-top: 0;
+  }
+}
 .bottom-nav a.btn_home {
   left: 50%;
   top: 5px;
