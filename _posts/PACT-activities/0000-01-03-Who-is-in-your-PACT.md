@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Who is in your PACT?
-cardOrder: 3
+cardNum: 3
 numDash: "21.3,2,21.3,2,21.3,999"
 categories:
 - PACT Activities

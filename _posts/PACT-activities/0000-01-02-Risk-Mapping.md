@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Risk Mapping
-cardOrder: 2
+cardNum: 2
 numDash: "21.3,2,21.3,999"
 categories:
 - PACT Activities

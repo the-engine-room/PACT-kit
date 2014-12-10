@@ -107,7 +107,7 @@ img {
   width: 100%;
   max-width: 375px;
 }
-.page-header .cardOrder .cardNum {
+.page-header .cardNum .cardNum {
   margin: 50px 0 -46px;
   font-size: 20px;
 }
@@ -462,7 +462,6 @@ h1 small {
 .kf .container,
 .pm .container,
 .hrd .container {
-  outline: 1px dashed #def;
   padding: 0;
 }
 .kf .container .row,
@@ -498,7 +497,6 @@ h1 small {
 .pm .gamecard .gc-front,
 .hrd .gamecard .gc-front {
   left: 0;
-  border-right: 1px dashed #def;
 }
 .kf .gamecard .gc-front img,
 .pm .gamecard .gc-front img,
