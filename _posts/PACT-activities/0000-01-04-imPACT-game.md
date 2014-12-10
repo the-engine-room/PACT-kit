@@ -1,7 +1,8 @@
 ---
 layout: post
 title: imPACT
-cardOrder: 1-4
+cardOrder: 4
+numDash: "21.3,2,21.3,2,21.3,2,21.3,999"
 categories:
 - PACT Activities
 goals: "Simulate the use of the Panic Button and responses by PACT members."

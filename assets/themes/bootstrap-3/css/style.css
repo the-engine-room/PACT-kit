@@ -107,6 +107,10 @@ img {
   width: 100%;
   max-width: 375px;
 }
+.page-header .cardOrder .cardNum {
+  margin: 50px 0 -46px;
+  font-size: 20px;
+}
 .container {
   max-width: 800px;
 }
@@ -236,7 +240,7 @@ h1 small {
 }
 .card-0 .page-header {
   position: relative;
-  padding-top: 300px;
+  padding-top: 50px;
 }
 .card-0 .page-header h1 {
   bottom: 0;
@@ -410,7 +414,7 @@ h1 small {
   }
   .page-header img {
     width: 360px;
-    margin: 120px auto 70px;
+    margin: 50px auto 70px;
   }
   .page-header h1 {
     font-size: 45pt;

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Digital mobile security
-cardOrder: 2-2
+cardOrder: 7
+numDash: "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999"
 categories:
 - App-specific
 goals: ""

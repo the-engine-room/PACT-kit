@@ -1,7 +1,8 @@
 ---
 layout: post
 title: App setup and practice
-cardOrder: 2-1
+cardOrder: 6
+numDash: "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999"
 categories:
 - App-specific
 goals: ""

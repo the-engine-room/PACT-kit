@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Risk Mapping
-cardOrder: 1-2
+cardOrder: 2
+numDash: "21.3,2,21.3,999"
 categories:
 - PACT Activities
 goals: "identify vulnerable situations"

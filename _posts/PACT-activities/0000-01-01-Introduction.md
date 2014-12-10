@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Introduction
-cardOrder: 1-1
+cardOrder: 1
+numDash: "21.3,999"
 categories:
 - PACT Activities
 goals: "Participants get to know each other and learn the purpose of the training."

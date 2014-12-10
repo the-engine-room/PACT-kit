@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Who is in your PACT?
-cardOrder: 1-3
+cardOrder: 3
+numDash: "21.3,2,21.3,2,21.3,999"
 categories:
 - PACT Activities
 goals: "Participants define their PACT, how each contact can help and what to do in case of emergency"

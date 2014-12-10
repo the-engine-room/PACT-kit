@@ -1,8 +1,9 @@
 ---
 layout: post
 title: PACT action plan
-cardOrder: "1-5"
-categories: 
+cardOrder: 5
+numDash: "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999"
+categories:
   - PACT Activities
 goals: Making an action plan to prepare your PACT to do what you need them to do.
 methodology: "Reflection on game, individual action planning"
