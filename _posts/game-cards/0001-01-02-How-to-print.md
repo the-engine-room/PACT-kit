@@ -13,6 +13,10 @@ The PDF documents in this folder are meant to be printed out and used in the wor
 
 The 7 activity cards all have two pages, and are meant to be printed front-rear on the same sheet of paper. **Fold the printed sheets down the bold black line on page 1**: that will put the description inside the card, and help you use the card as quick reference during the activities.
 
+<br />
+<br />
+<br />
+<br />
 ##Game Cards
 
 ###Rule Book
