@@ -10,9 +10,9 @@ Imagine Panic Button as the tip of an iceberg. For the app to be as effective as
 
 We created a set of training cards for communities and HRD trainers, based on the methodology Amnesty International fine-tuned over months of assisting communities at risk to integrate the Panic Button into their work. The cards are meant to be used in 1-2 day workshops with a medium-sized group (20-30 participants), but they can also be consulted separately.
 
-You can browse the cards online, or print them for use in workshops. **We appreciate feedback**: please let us know how the cards have been useful for you, and how they can be more useful for you! 
+You can browse the cards online, or print them for use in workshops. **We appreciate feedback**: please let us know how the cards have been useful for you, and how they can be more useful for you!
 
-<a href="#" class="btn btn-default">Download The Kit</a>
+<a href="{{ BASE_PATH }}/pdf/training-kit-cards-10.12.2014.zip" class="btn btn-default">Download The Kit</a>
 
 <ul class="cards container">
   {% assign cards = site.posts | sort:"date" %}

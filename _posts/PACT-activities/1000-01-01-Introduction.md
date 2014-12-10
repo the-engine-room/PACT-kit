@@ -10,7 +10,7 @@ methodology: "Plenary discussions and group activities"
 timeSpan: "60 to 75 minutes"
 remember: "Prepare the flower petals beforehand; visibly write down the ground rules; everyone should make their reflection petal"
 materials: "Color paper, scissors, color markers, flip charts, sticky notes"
-downloadLink: http://tiny.cc/PACT1.1
+downloadLink: 
 shortLink:
 extra:
 ---
