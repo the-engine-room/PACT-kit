@@ -130,9 +130,10 @@ img{
     max-width: 375px;
   }
 
-  .cardNum {
+  .counter {
+    position: relative;
     .cardNum {
-      margin: 50px 0 -46px;
+      margin: 100px 0 -46px;
       font-size: 20px;
     }
   }
@@ -196,7 +197,80 @@ img{
 
 /************************************************
 
-   home page
+Nav
+
+************************************************/
+
+.bottom-nav {
+  a {
+    position: fixed;
+    display: block;
+    border-radius: 25px;
+    border: 1px solid @y;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    overflow: hidden;
+    color: transparent;
+
+    &:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 15px solid @y;
+      display: block;
+      margin: 14px 0px 0px 14px;
+    }
+
+    &.btn_prev{
+      top:50%;
+      left:5px;
+      margin-top: -25px;
+      &:hover:before{
+        border-right-color: #222;
+      }
+    }
+
+    &:hover {
+      background-color: @y;
+    }
+
+    &.btn_next{
+      top:50%;
+      margin-top: -25px;
+      right: 5px;
+      &:before{
+        border-right: none;
+        border-left: 15px solid @y;
+        margin: 14px 0 0 19px;
+      }
+      &:hover:before{
+        border-left-color: #222;
+      }
+    }
+
+    &.btn_home{
+      left: 50%;
+      top: 5px;
+      margin-left: -25px;
+      &:before{
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid @y;
+      }
+      &:hover:before{
+        border-bottom-color: #222;
+      }
+    }
+  }
+}
+
+/************************************************
+
+home page
 
 ************************************************/
 

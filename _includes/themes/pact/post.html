@@ -5,7 +5,7 @@
     </div> -->
 
     <div class="page-header">
-      <div class="cardNum">
+      <div class="counter">
         <div class="cardNum">{{ page.cardNum }}</div>
         <svg style="transform: rotate(-1deg);" width="63px" height="63px" viewBox="0 0 63 63">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
@@ -144,10 +144,15 @@
     </div>
 
 
-    {% if page.next %}
+
     <div class="bottom-nav col-xs-12">
-      <a class="btn btn-default" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a>
+      {% if  page.cardNum > 1 %}
+      <a class="btn_prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&#9664; Previous</a>
+      {% endif %}
+      <a class="btn_home" href="{{ HOME_PATH }}" title="PACT Kit home">&#9650; Home</a>
+      {% if page.next %}
+      <a class="btn_next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &#9654;</a>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
 </div>

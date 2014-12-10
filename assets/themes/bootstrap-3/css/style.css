@@ -107,8 +107,11 @@ img {
   width: 100%;
   max-width: 375px;
 }
-.page-header .cardNum .cardNum {
-  margin: 50px 0 -46px;
+.page-header .counter {
+  position: relative;
+}
+.page-header .counter .cardNum {
+  margin: 100px 0 -46px;
   font-size: 20px;
 }
 .container {
@@ -142,7 +145,71 @@ img {
 }
 /************************************************
 
-   home page
+Nav
+
+************************************************/
+.bottom-nav a {
+  position: fixed;
+  display: block;
+  border-radius: 25px;
+  border: 1px solid #fff300;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  overflow: hidden;
+  color: transparent;
+}
+.bottom-nav a:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fff300;
+  display: block;
+  margin: 14px 0px 0px 14px;
+}
+.bottom-nav a.btn_prev {
+  top: 50%;
+  left: 5px;
+  margin-top: -25px;
+}
+.bottom-nav a.btn_prev:hover:before {
+  border-right-color: #222;
+}
+.bottom-nav a:hover {
+  background-color: #fff300;
+}
+.bottom-nav a.btn_next {
+  top: 50%;
+  margin-top: -25px;
+  right: 5px;
+}
+.bottom-nav a.btn_next:before {
+  border-right: none;
+  border-left: 15px solid #fff300;
+  margin: 14px 0 0 19px;
+}
+.bottom-nav a.btn_next:hover:before {
+  border-left-color: #222;
+}
+.bottom-nav a.btn_home {
+  left: 50%;
+  top: 5px;
+  margin-left: -25px;
+}
+.bottom-nav a.btn_home:before {
+  border-top: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #fff300;
+}
+.bottom-nav a.btn_home:hover:before {
+  border-bottom-color: #222;
+}
+/************************************************
+
+home page
 
 ************************************************/
 ul.cards {

@@ -1,6 +1,6 @@
 ---
 layout: page
-cardOrder: 0
+cardNum: 0
 title: Panic Button Training Kit
 ---
 <div id="hp" markdown="1">
@@ -9,13 +9,13 @@ title: Panic Button Training Kit
 <a href="#" class="btn btn-default">Download The Kit</a>
 
 <ul class="cards container">
-  {% assign cards = site.posts | sort:"cardOrder" %}
+  {% assign cards = site.posts | sort:"date" %}
   {% for post in cards %}
     {% if post.layout contains 'post' %}
       <li class="row">
         <div class="cover col-sm-2">
           <a href="{{ BASE_PATH }}{{ post.url }}">
-            <img src="{{ BASE_PATH }}/assets/img/{{ post.cardOrder }}_thumb.png" alt="{{ post.title }}">
+            <img src="{{ BASE_PATH }}/assets/img/{{ post.cardNum }}_thumb.png" alt="{{ post.title }}">
             {{ post.title }}
           </a>
         </div>
