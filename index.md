@@ -14,7 +14,7 @@ We created a set of training cards for communities and HRD trainers, based on th
 
 You can browse the cards online, or print them for use in workshops. **We appreciate feedback**: please let us know how the cards have been useful for you, and how they can be improved to better fit your needs.
 
-<a href="{{ BASE_PATH }}/pdf/training-kit-cards-10.12.2014.zip" class="btn btn-default">Download The Kit</a>
+<a href="{{ BASE_PATH }}/pdf/training-kit-cards-11.12.2014.zip" class="btn btn-default">Download The Kit</a>
 
 <ul class="cards container">
   {% assign cards = site.posts | sort:"date" %}
