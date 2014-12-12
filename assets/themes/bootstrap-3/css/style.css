@@ -638,6 +638,9 @@ h1 small {
 .hrd .gamecard .gc-inlay .content {
   padding: 0 8%;
 }
+.rules h1 {
+  margin-bottom: 30px;
+}
 .rules .content {
   -webkit-column-count: 2;
   -moz-column-count: 2;
