@@ -1,3 +1,9 @@
+# Panic Button kit 
+>Type of project: website
+
+## What is it?
+Part of the training for using the Panic Button. Built with Amnesty International. Not maintained.
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
