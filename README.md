@@ -1,12 +1,18 @@
-# Jekyll-Bootstrap
+# Panic Button kit 
+>Type of project: website
+
+## What is it?
+Part of the training for using the Panic Button. Built with Amnesty International. Not maintained.
+
+### Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
-## Usage
+#### Usage
 
 For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-## Version
+#### Version
 
 0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
 
@@ -14,7 +20,7 @@ For all usage and documentation please see: <http://jekyllbootstrap.com>
 However, the actual API has not changed at all.
 You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
 
-## Contributing
+#### Contributing
 
 
 To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
@@ -35,6 +41,6 @@ Translation : it might take a bit longer so please be patient! (but sincerely th
 The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
 
 
-## License
+#### License
 
 [MIT](http://opensource.org/licenses/MIT)
